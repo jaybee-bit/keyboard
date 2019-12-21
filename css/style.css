@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff
+}
+.align{
+    text-align: center;
+    font-family: helvetica;
+}
+.font{
+    margin:20px 10px; 
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.lighter{
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(43, 42, 42);   
+}
+.border{
+    border:1px solid aqua;
+    margin:20px 400px;
+}
+.kb-layout{
+    margin:50px 70px; 
+    height:50vh;
+    width: 90vw ;
+    border: 2px solid rgb(138, 136, 136) ;
+    border-radius: 10px;
+    background-color: rgb(231, 224, 224);
+}
+.btn-input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button{   
+    height:30px ;
+    width:400px ;
+    margin: 1px;
+}
+.btn-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.span-btn{
+    border: 1px solid black;
+}
+.btn-numik{
+    height: 30px;
+    width: 20px;
+}
+.space-bar{
+    flex-basis: 300%;
+}
+.fa{
+    border: 1px solid black;
+    padding: 3px;
+}
